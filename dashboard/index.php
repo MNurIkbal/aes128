@@ -62,7 +62,7 @@ $data = mysql_fetch_array($query);
       								$dataencrypt = mysql_fetch_array($query);
 								      ?>
                       <div class="info">
-                        <h4>Total Enkripsi</h4>
+                        <h4>Total File Enkripsi</h4>
                         <p> <b><?php echo $dataencrypt['totalencrypt']; ?></b></p>
                       </div>
                     </div>
@@ -74,7 +74,7 @@ $data = mysql_fetch_array($query);
         								$query = mysql_query("SELECT count(*) totaldecrypt FROM file WHERE status='2'");
         								$datadecrypt = mysql_fetch_array($query);
   								      ?>
-                        <h4>Total Dekripsi</h4>
+                        <h4>Total File Dekripsi</h4>
                         <p> <b><?php echo $datadecrypt['totaldecrypt']; ?></b></p>
                       </div>
                     </div>
@@ -86,13 +86,11 @@ $data = mysql_fetch_array($query);
         </div>
         <div class="row" >
           <div class="col-md-12" >
-          <div class="card" style="background-color: #008a9c;">
+          <div class="card" style="background-color: #0055DA;color:white;">
             <div class="card-body">
-          <center><img src="../assets/images/lg.png" alt="" class="img-responsive" width="100px">
-        <h3>AES-128</h3>
-        <p style="color:#e7e7e7;">Aplikasi Enkripsi Softfile Menggunakan Algoritma Advanced Encryption Standard (AES-128 bit).</p>
-        <p style="color:#e7e7e7;">Format file yang didukung untuk di enkripsi adalah docx, xls, txt, ppt ataupun pdf.</p>
-        <p style="color:#e7e7e7;">Ukuran file yang akan dienkripsi tidak boleh lebih dari 3MB.</p>
+          <center><img src="../assets/images/logo.png" alt="" class="img-responsive" width="100px">
+        <h3>Anggota KKP</h3>
+        <p style="color:#e7e7e7;">1. 2211500869 Septian Tri Wijaya</p>
 
       </center>
         
